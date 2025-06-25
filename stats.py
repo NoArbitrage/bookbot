@@ -1,6 +1,6 @@
 def count_words(text):
     text_split = text.split()
-    print(f"{len(text_split)} words found in the document")
+    print(f"Found {len(text_split)} total words")
 
 def count_chars(text):
     # each char in string -> add to dict and add counter
